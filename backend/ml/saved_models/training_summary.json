@@ -1,0 +1,58 @@
+{
+  "random_forest": {
+    "model": "Random Forest",
+    "accuracy": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "cv_f1_mean": 1.0,
+    "cv_f1_std": 0.0,
+    "n_estimators": 200,
+    "feature_importances": {
+      "login_frequency": 5.2353745762139446e-05,
+      "late_night_logins": 0.010695487108353855,
+      "failed_login_count": 0.002903692474479822,
+      "file_download_volume": 0.02094934770181726,
+      "usb_transfer_count": 0.003447801175299798,
+      "suspicious_url_count": 0.06527906959057077,
+      "bulk_file_copy_count": 0.12565036983055483,
+      "after_hours_events": 0.03633618775288338,
+      "sensitive_file_accesses": 0.11354912846359239,
+      "external_transfers": 0.1305335629245094,
+      "anomaly_ratio": 0.23008774318176628,
+      "after_hours_ratio": 0.011984945323159423,
+      "fail_rate": 9.675066833501363e-05,
+      "total_data_moved": 0.03167671923556129,
+      "threat_indicator": 0.2167568408233544
+    }
+  },
+  "xgboost": {
+    "model": "XGBoost",
+    "accuracy": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "n_estimators": 300,
+    "feature_importances": {
+      "login_frequency": 0.0,
+      "late_night_logins": 0.0,
+      "failed_login_count": 0.0,
+      "file_download_volume": 0.012129014357924461,
+      "usb_transfer_count": 0.0,
+      "suspicious_url_count": 0.0,
+      "bulk_file_copy_count": 0.008661989122629166,
+      "after_hours_events": 0.0006307055591605604,
+      "sensitive_file_accesses": 0.06523528695106506,
+      "external_transfers": 0.02020551823079586,
+      "anomaly_ratio": 0.4040323793888092,
+      "after_hours_ratio": 0.0004339999286457896,
+      "fail_rate": 0.0,
+      "total_data_moved": 0.0025700083933770657,
+      "threat_indicator": 0.48610109090805054
+    }
+  },
+  "isolation_forest": {
+    "model": "Isolation Forest",
+    "contamination": 0.1,
+    "roc_auc": 0.9977,
+    "anomaly_rate": 0.0575
+  }
+}

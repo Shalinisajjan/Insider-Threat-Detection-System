@@ -1,0 +1,6 @@
+{
+  "model": "Isolation Forest",
+  "contamination": 0.1,
+  "roc_auc": 0.9977,
+  "anomaly_rate": 0.0575
+}
